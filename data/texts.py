@@ -1,6 +1,10 @@
 TEXTS = {
     "en": {
-        "welcome": "Welcome! 👋\n\nI'm your Telegram assistant.\nChoose an option below:",
+        "welcome": (
+            "Hey, I'm Bendjy 🤖\n\n"
+            "Your AI-powered assistant.\n"
+            "Ask me anything or choose an option below 👇"
+        ),
         "main_menu": "Main menu:",
         "ask_ai": "🤖 Ask AI",
         "weather": "🌦 Weather",
@@ -15,12 +19,12 @@ TEXTS = {
         "choose_language": "Choose your language:",
         "language_updated": "Language updated successfully ✅",
         "help_text": (
-            "How to use me:\n\n"
-            "• Tap Ask AI and choose a model.\n"
-            "• Then send me a normal message.\n"
-            "• Tap Weather to choose a city.\n"
-            "• Tap Time for current city times.\n"
-            "• Tap Joke or Quote for something fun."
+            "How to use Bendjy 🤖\n\n"
+            "• Tap 'Ask AI' and choose a model\n"
+            "• Send a message to chat with AI\n"
+            "• Use 'Ask all AI' for multiple answers\n"
+            "• Check Weather, Time, Jokes or Quotes\n\n"
+            "Simple as that 😄"
         ),
         "choose_ai": "Choose which AI you want to use:",
         "ai_selected_send": "{icon} {ai_name} selected.\n\nSend me any message.",
@@ -48,17 +52,21 @@ TEXTS = {
         "no_ai_selected": "No AI selected.",
         "use_menu_first": "Use the menu first.",
         "please_choose_ai_first": "Please choose an AI first.",
-        "thinking_with": "Thinking with {ai_name}... 🤔",
+        "thinking_with": "Bendjy 🤖 is thinking with {ai_name}...",
         "something_went_wrong": "Something went wrong with {ai_name}: {error}",
         "joke_title": "😂 Joke",
         "quote_title": "💬 Quote",
         "ai_busy": "⚠️ {ai_name} is busy right now. Switch to another AI mode.",
         "ask_all_ai": "⚡ Ask all AI",
-        "thinking_all": "Thinking with all AI models... 🤔",
-        "all_ai_results": "⚡ Results from all AI models",
+        "thinking_all": "Bendjy 🤖 is thinking together with all AI models...",
+        "all_ai_results": "⚡Results from all AI models",
     },
     "bg": {
-        "welcome": "Добре дошъл! 👋\n\nАз съм твоят Telegram асистент.\nИзбери опция отдолу:",
+        "welcome": (
+            "Хей, аз съм Bendjy 🤖\n\n"
+            "Твоят AI асистент.\n"
+            "Питай ме каквото искаш или избери опция 👇"
+        ),
         "main_menu": "Главно меню:",
         "ask_ai": "🤖 Попитай AI",
         "weather": "🌦 Време",
@@ -73,12 +81,12 @@ TEXTS = {
         "choose_language": "Избери език:",
         "language_updated": "Езикът е сменен успешно ✅",
         "help_text": (
-            "Как да ме използваш:\n\n"
-            "• Натисни Ask AI и избери модел.\n"
-            "• После ми изпрати нормално съобщение.\n"
-            "• Натисни Weather, за да избереш град.\n"
-            "• Натисни Time за текущите часове.\n"
-            "• Натисни Joke или Quote за нещо забавно."
+            "Как да използваш Bendjy 🤖\n\n"
+            "• Натисни 'Ask AI' и избери модел\n"
+            "• Изпрати съобщение\n"
+            "• Ползвай 'Попитай всички AI'\n"
+            "• Провери време, час, шеги или цитати\n\n"
+            "Толкова е лесно 😄"
         ),
         "choose_ai": "Избери кой AI искаш да използваш:",
         "ai_selected_send": "{icon} Избран е {ai_name}.\n\nИзпрати ми съобщение.",
@@ -106,13 +114,13 @@ TEXTS = {
         "no_ai_selected": "Няма избран AI.",
         "use_menu_first": "Първо използвай менюто.",
         "please_choose_ai_first": "Първо избери AI.",
-        "thinking_with": "Мисля с {ai_name}... 🤔",
+        "thinking_with": "Bendjy 🤖 мисли с {ai_name}...",
         "something_went_wrong": "Нещо се обърка с {ai_name}: {error}",
         "joke_title": "😂 Шега",
         "quote_title": "💬 Цитат",
         "ai_busy": "⚠️ {ai_name} е натоварен в момента. Избери друг AI.",
         "ask_all_ai": "⚡ Попитай всички AI",
-        "thinking_all": "Мисля с всички AI модели... 🤔",
-        "all_ai_results": "⚡ Резултати от всички AI модели",
+        "thinking_all": "Bendjy 🤖 мисли заедно с всички AI модели...",
+        "all_ai_results": "⚡Резултати от всички AI модели",
     },
 }
